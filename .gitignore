@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large models and generated vector databases
+*.gguf
+merck_manual_db/
+merck_db_*/
+chroma/
+*.sqlite3
+
+# Local datasets and secrets
+*.pdf
+.env
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
